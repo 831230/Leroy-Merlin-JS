@@ -533,6 +533,6 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"kSswA":[function(require,module,exports) {
 
-},{}]},["iNKMv","kSswA"], "kSswA", "parcelRequire94c2")
+},{}]},["iNKMv","kSswA"], "kSswA", "parcelRequire61f6")
 
 //# sourceMappingURL=home.e6f346f6.js.map

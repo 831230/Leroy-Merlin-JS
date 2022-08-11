@@ -2,20 +2,20 @@
   "name": "leroy-merlin-js-01",
   "version": "2.0.0",
   "description": "",
-  "homepage": "http://831230.github.io/leroy-merlin-js-01/",
+  "homepage": "http://831230.github.io/Leroy-Merlin-JS-01/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /leroy-merlin-js-01/"
+    "build": "parcel build src/*.html --public-url /Leroy-Merlin-JS-01/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/831230/leroy-merlin-js-01.git"
+    "url": "git+https://github.com/831230/Leroy-Merlin-JS-01.git"
   },
   "keywords": [],
   "author": "Tomasz Bielecki <szkoleniegoit@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/831230/leroy-merlin-js-01/issues"
+    "url": "https://github.com/831230/Leroy-Merlin-JS-01/issues"
   },
   "dependencies": {
     "flatpickr": "^4.6.13",

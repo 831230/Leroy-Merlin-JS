@@ -1,3 +1,7 @@
+import { exampleObj } from './example-object';
+import exampleObjJson2 from './json-example.json'; 
+
+console.log(exampleObjJson2);
 // (() => {
 //   const loginApp = {
 //     openLoginAppBtn: document.querySelector("[login-app-open]"),
@@ -25,20 +29,30 @@
 //   }
 // })();
 
-(() => { 
-  const registerDriver = {
-    formDriverSection: document.querySelector("[register-driver]"),
-    closeDriverFormBtn: document.querySelector("[register-driver-close]"),
-    openDriverFormBtn: document.querySelector("[register-driver-open]"),
+// (() => { 
+//   const registerDriver = {
+//     formDriverSection: document.querySelector("[register-driver]"),
+//     closeDriverFormBtn: document.querySelector("[register-driver-close]"),
+//     openDriverFormBtn: document.querySelector("[register-driver-open]"),
 
-    backdropOnSection: document.querySelector(".backdrop-temp"),
-  };
+//     backdropOnSection: document.querySelector(".backdrop-temp"),
+//   };
 
-  registerDriver.openDriverFormBtn.addEventListener("click", toggleDriverForm);
-  registerDriver.closeDriverFormBtn.addEventListener("click", toggleDriverForm);
+//   registerDriver.openDriverFormBtn.addEventListener("click", toggleDriverForm);
+//   registerDriver.closeDriverFormBtn.addEventListener("click", toggleDriverForm);
 
-  function toggleDriverForm() { 
-    registerDriver.formDriverSection.classList.toggle("is-hidden");
-    registerDriver.backdropOnSection.classList.toggle("backdrop");
-  }
-})();
+//   function toggleDriverForm() { 
+//     registerDriver.formDriverSection.classList.toggle("is-hidden");
+//     registerDriver.backdropOnSection.classList.toggle("backdrop");
+//   }
+// })();
+
+// console.log(exampleObj);
+
+// // exampleObj.name = "Tomasz Alexander";
+
+// // console.log(exampleObj);
+
+// const user = JSON.parse(exampleObjJson);
+// // console.log(JSON.parse(user));
+// console.log(typeof (user));

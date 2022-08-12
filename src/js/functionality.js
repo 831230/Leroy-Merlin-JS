@@ -1,3 +1,5 @@
+import { exampleObj } from "./example-object";
+
 // ==========VIEW MODAL WINDOW LOGIN OR REGISTER=============START=========
 
 const loginAppQuerySelectorsObj = {
@@ -27,8 +29,22 @@ loginAppQuerySelectorsObj.closeRegisterAppBtn.addEventListener('click', toggleMo
 
 // ==========VIEW MODAL WINDOW LOGIN OR REGISTER=============END=========
 
-// ==========VIEW MODAL WINDOW REGISTER-DRIVER=============START=========
+// // ==========VIEW MODAL WINDOW REGISTER-DRIVER=============START=========
 
+// const registerDriverQuerySelectorsObj = {
+//   formDriverSection: document.querySelector('[register-driver]'),
+//   closeDriverFormBtn: document.querySelector('[register-driver-close]'),
+//   openDriverFormBtn: document.querySelector('[register-driver-open]'),
 
+//   backdropOnSection: document.querySelector('.backdrop-temp'),
+// };
+// registerDriverQuerySelectorsObj.openDriverFormBtn.addEventListener('click', toggleDriverForm);
+// registerDriverQuerySelectorsObj.closeDriverFormBtn.addEventListener('click', toggleDriverForm);
+// function toggleDriverForm() {
+//   registerDriverQuerySelectorsObj.formDriverSection.classList.toggle('is-hidden');
+//   registerDriverQuerySelectorsObj.backdropOnSection.classList.toggle('backdrop');
+// };
 
-// ==========VIEW MODAL WINDOW REGISTER-DRIVER=============END===========
+// // ==========VIEW MODAL WINDOW REGISTER-DRIVER=============END===========
+
+console.log(exampleObj);
